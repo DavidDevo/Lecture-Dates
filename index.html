@@ -22,7 +22,7 @@
 <body>
 <center>
     <div>
-        <input type="number" id="num" placeholder="Phone Number">
+        <input type="number" id="num" placeholder="Class">
         <button onclick="result()">Result</button>
         <h3 id="result"></h3>
     </div>
@@ -33,7 +33,7 @@ let x = document.getElementById("num").value
 if(x == 3){
     open('index2.html', '_self', '', '')
 }else{
-    document.getElementById("result").innerHTML = "Please Enter Your Correct Phone Number"
+    document.getElementById("result").innerHTML = "Please Enter Your Correct Class Number"
 }
 document.getElementById("num").value =""
 }
